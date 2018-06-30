@@ -3,13 +3,38 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Gradients in chrome</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<div class="container">	
+		<main>
+		<div class="row">
+				<div class="col-4">
+					<div class="box" id="color1"></div>
+				<div class="col-4">	
+					<div class="box" id="color2"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<button id="run" class="btn btn-primary center-block" >Check this out!</button>
+	<div class="code">
+		<div class="row text-center">
+			<div class="col-12">
+				<h3 id='outcome'></h3>
+			</div>
+		</div>
+		</main>
+	</div>
+
 	<script
   src="https://code.jquery.com/jquery-2.2.4.min.js"
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="app.js"></script>
 </body>
 </html>

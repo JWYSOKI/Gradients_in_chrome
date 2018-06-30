@@ -1,3 +1,39 @@
-body {
-	background: blue;
+.box {
+	height: 300px;
+	width: 50%;
+	margin-top: 10%;
+	float: left;
+	margin-bottom: 5%;
+	-webkit-box-shadow: 79px 80px 143px 10px rgba(0,0,0,0.61);
+-moz-box-shadow: 79px 80px 143px 10px rgba(0,0,0,0.61);
+box-shadow: 79px 80px 143px 10px rgba(0,0,0,0.61);
+}
+
+#color1 {
+	background: ;
+}
+
+#color2 {
+	background: ;
+}
+#run {
+	font-size: 6em;
+	background: transparent;
+	border: none;
+	color:black;
+}
+
+html{
+	height: 100%;
+
+}
+body{
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+}
+
+main{
+	margin-top: 10%;
 }
